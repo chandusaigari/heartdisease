@@ -1,7 +1,6 @@
 # app.py
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -157,3 +156,4 @@ sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
 plt.ylabel("Actual")
 plt.xlabel("Predicted")
 st.pyplot(fig)
+
